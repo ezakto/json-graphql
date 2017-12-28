@@ -1,0 +1,19 @@
+{
+  "name": "json-graphql",
+  "version": "0.1.0",
+  "description": "Write GraphQL queries in pure JSON",
+  "main": "dist/json-graphql.js",
+  "scripts": {
+    "build": "babel --presets=es2015 lib/json-graphql.js --out-file dist/json-graphql.js"
+  },
+  "repository": {
+    "url": "git@github.com:ezakto/json-graphql",
+    "type": "git"
+  },
+  "author": "Nicolás Arias <nicolas@nicolasarias.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
